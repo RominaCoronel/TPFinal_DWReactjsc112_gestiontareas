@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: grey;
+  background-color: rgb(149, 190, 149);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5px;
+}
+
+h2 {
+  color: rgb(59, 58, 58);
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-caja {
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  
+}
+
+.banner-tarea {
+  width: 100%;
+  height: 250px;
+}
+ /*Lista de Tareas*/
+
+.tarea-principal {
+  width: 600px;
+  min-height: 200px;
+  background-color: rgb(167, 167, 233);
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px black;
+}
